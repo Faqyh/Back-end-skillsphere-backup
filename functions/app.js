@@ -8,6 +8,7 @@ const { organizers } = require('../data/organizers');
 const serverless = require('serverless-http');
 
 const app = express();
+
 app.use(bodyParser.json());
 
 // Middleware untuk mengizinkan CORS
